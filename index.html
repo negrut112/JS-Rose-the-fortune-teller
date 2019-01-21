@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <script>
+    function rosieTheFortuneTeller(){
+  var name=prompt ('Hi, dear! My name is Rosie, and I am an expert fortune teller. What is your name?');
+  var chose=prompt ('Yes, I have seen that you would come to me, '+name+'. Now please choose one from the following and type it in the box: turtle, rose, teacup, moon.');
+      alert ('Hmm...'+chose+'. Excellent choice. Let us see what your future holds.');
+  
+  if( chose == 'turtle'){
+  alert('Here is your fortune: Don\'t panic.');
+  return;
+  
+}else if(chose == 'rose'){
+  alert('Here is your fortune: You will find a thing. It may be important.');
+  return;
+  
+}else if (chose =='teacup'){
+  alert('Here is your fortune: The end is near, might as well have dessert.');
+  return;
+  
+}else if (chose =='moon'){
+  alert('Here is your fortune: Look before you leap. Or wear a parachute.');
+  return;
+}else{
+  alert('I am sorry, ' + name + ', I do not think I understand you correctly. Are you sure you typed in one of the offered possibilities?');
+return;}
+}
+rosieTheFortuneTeller();
+  </script>
+</body>
+</html>
